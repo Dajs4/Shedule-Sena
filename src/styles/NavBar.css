@@ -1,0 +1,29 @@
+/*barra de navegacion*/
+header, nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    position: fixed;
+    top: 0;
+  
+    height: 100vh;
+    width: 4vw;
+  
+    background-color: var(--colorPrimario);
+}
+
+header nav{
+    height: 40vh;
+    
+    justify-content: space-around;
+}
+
+header nav .icon{
+    color: var(--colorBlanco);
+    width: 2vw;
+    height: 2vw;
+}

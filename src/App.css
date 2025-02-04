@@ -1,0 +1,40 @@
+:root{
+  --colorPrimario : #00324D;
+  --colorPrimarioClaro : rgba(0, 50, 77, 0.9);
+  --colorSecundario: #39A900;
+  --colorBlanco: #fff;
+  --colorNegro: #000;
+  --colorNegroConOpacidad: rgba(0,0,0, .5);
+  --colorBlancoConOpacidad: rgba(255,255,255, .8);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 16px;
+}
+
+.app{
+  height: 100vh;
+  width: 100vw;
+}
+
+.contPage{
+  width: 96vw;
+  height: 100vh;
+  margin-left: 4vw;
+}
+
+.contForm{
+  height: 100vh;
+  width: 22vw;
+
+  background-color: var(--colorPrimarioClaro);
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 5vh 5vh;
+}

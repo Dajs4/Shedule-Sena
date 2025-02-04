@@ -1,0 +1,9 @@
+.contOptions {
+    height: 80vh;
+    width: initial;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 5vh;
+}

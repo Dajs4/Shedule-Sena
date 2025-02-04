@@ -1,0 +1,974 @@
+{
+    "programasDeFormacion": [
+        {
+            "idProgramaDeF": 1,
+            "tipo": false,
+            "nombre": "Let me affect.",
+            "duracion": "16:19:26"
+        },
+        {
+            "idProgramaDeF": 2,
+            "tipo": true,
+            "nombre": "Woman debate study.",
+            "duracion": "07:14:09"
+        },
+        {
+            "idProgramaDeF": 3,
+            "tipo": true,
+            "nombre": "Investment player.",
+            "duracion": "02:37:55"
+        },
+        {
+            "idProgramaDeF": 4,
+            "tipo": true,
+            "nombre": "Never couple.",
+            "duracion": "04:24:16"
+        },
+        {
+            "idProgramaDeF": 5,
+            "tipo": false,
+            "nombre": "Action billion paper.",
+            "duracion": "13:02:51"
+        },
+        {
+            "idProgramaDeF": 6,
+            "tipo": true,
+            "nombre": "Realize well quite.",
+            "duracion": "17:27:03"
+        },
+        {
+            "idProgramaDeF": 7,
+            "tipo": true,
+            "nombre": "Southern company drug.",
+            "duracion": "18:49:00"
+        },
+        {
+            "idProgramaDeF": 8,
+            "tipo": true,
+            "nombre": "Summer college.",
+            "duracion": "15:54:57"
+        },
+        {
+            "idProgramaDeF": 9,
+            "tipo": false,
+            "nombre": "Interesting a particular.",
+            "duracion": "07:19:41"
+        },
+        {
+            "idProgramaDeF": 10,
+            "tipo": true,
+            "nombre": "Anything pressure.",
+            "duracion": "03:48:19"
+        }
+    ],
+    "fichas": [
+        {
+            "idFicha": 1,
+            "numero": 17582,
+            "fk_id_ProgramaDeFormacion": 7
+        },
+        {
+            "idFicha": 2,
+            "numero": 46310,
+            "fk_id_ProgramaDeFormacion": 2
+        },
+        {
+            "idFicha": 3,
+            "numero": 88811,
+            "fk_id_ProgramaDeFormacion": 10
+        },
+        {
+            "idFicha": 4,
+            "numero": 32938,
+            "fk_id_ProgramaDeFormacion": 7
+        },
+        {
+            "idFicha": 5,
+            "numero": 81354,
+            "fk_id_ProgramaDeFormacion": 9
+        },
+        {
+            "idFicha": 6,
+            "numero": 25396,
+            "fk_id_ProgramaDeFormacion": 8
+        },
+        {
+            "idFicha": 7,
+            "numero": 64495,
+            "fk_id_ProgramaDeFormacion": 8
+        },
+        {
+            "idFicha": 8,
+            "numero": 46075,
+            "fk_id_ProgramaDeFormacion": 1
+        },
+        {
+            "idFicha": 9,
+            "numero": 87292,
+            "fk_id_ProgramaDeFormacion": 6
+        },
+        {
+            "idFicha": 10,
+            "numero": 37459,
+            "fk_id_ProgramaDeFormacion": 5
+        }
+    ],
+    "trimestres": [
+        {
+            "idTrimestre": 1,
+            "estado": true
+        },
+        {
+            "idTrimestre": 2,
+            "estado": false
+        },
+        {
+            "idTrimestre": 3,
+            "estado": false
+        },
+        {
+            "idTrimestre": 4,
+            "estado": false
+        },
+        {
+            "idTrimestre": 5,
+            "estado": false
+        },
+        {
+            "idTrimestre": 6,
+            "estado": false
+        },
+        {
+            "idTrimestre": 7,
+            "estado": false
+        },
+        {
+            "idTrimestre": 8,
+            "estado": true
+        },
+        {
+            "idTrimestre": 9,
+            "estado": false
+        },
+        {
+            "idTrimestre": 10,
+            "estado": true
+        }
+    ],
+    "bloques": [
+        {
+            "idBloque": 1,
+            "Descripcion": "7:00 - 8:45",
+            "horaInicio": "1",
+            "horaFin": "2"
+        },
+        {
+            "idBloque": 2,
+            "Descripcion": "8:45 - 10:00",
+            "horaInicio": "2",
+            "horaFin": "3"
+        },
+        {
+            "idBloque": 3,
+            "Descripcion": "10:30 - 12:20",
+            "horaInicio": "3",
+            "horaFin": "4"
+        },
+        {
+            "idBloque": 4,
+            "Descripcion": "12:40 - 2:20",
+            "horaInicio": "4",
+            "horaFin": "5"
+        },
+        {
+            "idBloque": 5,
+            "Descripcion": "2:20 - 4:00",
+            "horaInicio": "5",
+            "horaFin": "6"
+        },
+        {
+            "idBloque": 6,
+            "Descripcion": "4:30 - 6:00",
+            "horaInicio": "6",
+            "horaFin": "7"
+        },
+        {
+            "idBloque": 7,
+            "Descripcion": "6:10 - 7:50",
+            "horaInicio": "1",
+            "horaFin": "2"
+        }
+    ],
+    "dia":[
+        {
+            "id": 1,
+            "dia": "Lunes"
+        },
+        {
+            "id": 2,
+            "dia": "Martes"
+        },
+        {
+            "id": 3,
+            "dia": "Miercoles"
+        },
+        {
+            "id": 4,
+            "dia": "Jueves"
+        },
+        {
+            "id": 5,
+            "dia": "Viernes"
+        },
+        {
+            "id": 6,
+            "dia": "Sabado"
+        }
+    ],
+    "tematicas": [
+        {
+            "idTematica": 1,
+            "nombre": "Cut.",
+            "fk_id_Bloque": 2
+        },
+        {
+            "idTematica": 2,
+            "nombre": "Usually recent.",
+            "fk_id_Bloque": 8
+        },
+        {
+            "idTematica": 3,
+            "nombre": "Act.",
+            "fk_id_Bloque": 7
+        },
+        {
+            "idTematica": 4,
+            "nombre": "Year.",
+            "fk_id_Bloque": 9
+        },
+        {
+            "idTematica": 5,
+            "nombre": "Budget.",
+            "fk_id_Bloque": 8
+        },
+        {
+            "idTematica": 6,
+            "nombre": "Various.",
+            "fk_id_Bloque": 7
+        },
+        {
+            "idTematica": 7,
+            "nombre": "Wait education.",
+            "fk_id_Bloque": 8
+        },
+        {
+            "idTematica": 8,
+            "nombre": "Add support.",
+            "fk_id_Bloque": 6
+        },
+        {
+            "idTematica": 9,
+            "nombre": "Old.",
+            "fk_id_Bloque": 7
+        },
+        {
+            "idTematica": 10,
+            "nombre": "First.",
+            "fk_id_Bloque": 6
+        }
+    ],
+    "competencias": [
+        {
+            "idCompetencia": 1,
+            "nombre": "Heart.",
+            "fk_id_Tematica": 8
+        },
+        {
+            "idCompetencia": 2,
+            "nombre": "Return house better.",
+            "fk_id_Tematica": 5
+        },
+        {
+            "idCompetencia": 3,
+            "nombre": "Move suffer kitchen.",
+            "fk_id_Tematica": 9
+        },
+        {
+            "idCompetencia": 4,
+            "nombre": "Perhaps.",
+            "fk_id_Tematica": 1
+        },
+        {
+            "idCompetencia": 5,
+            "nombre": "Yet send to.",
+            "fk_id_Tematica": 7
+        },
+        {
+            "idCompetencia": 6,
+            "nombre": "Together about.",
+            "fk_id_Tematica": 4
+        },
+        {
+            "idCompetencia": 7,
+            "nombre": "Ready authority baby choose.",
+            "fk_id_Tematica": 10
+        },
+        {
+            "idCompetencia": 8,
+            "nombre": "Stop use draw interview.",
+            "fk_id_Tematica": 6
+        },
+        {
+            "idCompetencia": 9,
+            "nombre": "Current war away.",
+            "fk_id_Tematica": 9
+        },
+        {
+            "idCompetencia": 10,
+            "nombre": "Recently among lay.",
+            "fk_id_Tematica": 4
+        }
+    ],
+    "resultadosDeAprendizaje": [
+        {
+            "idResultadoDeA": 1,
+            "nombre": "Kind would bed.",
+            "fk_id_Trimestre": 5
+        },
+        {
+            "idResultadoDeA": 2,
+            "nombre": "Program short piece usually remain.",
+            "fk_id_Trimestre": 3
+        },
+        {
+            "idResultadoDeA": 3,
+            "nombre": "Audience key skill let fine.",
+            "fk_id_Trimestre": 2
+        },
+        {
+            "idResultadoDeA": 4,
+            "nombre": "Say participant site name.",
+            "fk_id_Trimestre": 7
+        },
+        {
+            "idResultadoDeA": 5,
+            "nombre": "After identify allow.",
+            "fk_id_Trimestre": 7
+        },
+        {
+            "idResultadoDeA": 6,
+            "nombre": "Any describe.",
+            "fk_id_Trimestre": 3
+        },
+        {
+            "idResultadoDeA": 7,
+            "nombre": "Do anything quality sing.",
+            "fk_id_Trimestre": 9
+        },
+        {
+            "idResultadoDeA": 8,
+            "nombre": "Tell get form.",
+            "fk_id_Trimestre": 10
+        },
+        {
+            "idResultadoDeA": 9,
+            "nombre": "Start than start.",
+            "fk_id_Trimestre": 3
+        },
+        {
+            "idResultadoDeA": 10,
+            "nombre": "Wonder simply blood.",
+            "fk_id_Trimestre": 5
+        }
+    ],
+    "sedes":[
+        {
+            "id": 1,
+            "nombre": "CGMLTI"
+        },
+        {
+            "id": 2,
+            "nombre": "Fontibon"
+        },
+        {
+            "id": 3,
+            "nombre": "Sede 57"
+        }
+    ],
+    "ambientes": [
+        {
+            "idAmbiente": 1,
+            "numero": 37,
+            "nombre": "Shake again."
+        },
+        {
+            "idAmbiente": 2,
+            "numero": 12,
+            "nombre": "Their."
+        },
+        {
+            "idAmbiente": 3,
+            "numero": 25,
+            "nombre": "Newspaper."
+        },
+        {
+            "idAmbiente": 4,
+            "numero": 17,
+            "nombre": "Future indeed."
+        },
+        {
+            "idAmbiente": 5,
+            "numero": 44,
+            "nombre": "Project age."
+        },
+        {
+            "idAmbiente": 6,
+            "numero": 31,
+            "nombre": "Along."
+        },
+        {
+            "idAmbiente": 7,
+            "numero": 40,
+            "nombre": "Development around."
+        },
+        {
+            "idAmbiente": 8,
+            "numero": 36,
+            "nombre": "View."
+        },
+        {
+            "idAmbiente": 9,
+            "numero": 31,
+            "nombre": "Candidate involve."
+        },
+        {
+            "idAmbiente": 10,
+            "numero": 18,
+            "nombre": "Their."
+        }
+    ],
+    "instructores": [
+        {
+            "idInstructor": 1,
+            "nombre": "Keith",
+            "apellido": "Schmidt",
+            "tipoContrato": true
+        },
+        {
+            "idInstructor": 2,
+            "nombre": "Thomas",
+            "apellido": "Moore",
+            "tipoContrato": false
+        },
+        {
+            "idInstructor": 3,
+            "nombre": "Gregory",
+            "apellido": "Reyes",
+            "tipoContrato": false
+        },
+        {
+            "idInstructor": 4,
+            "nombre": "Joshua",
+            "apellido": "Hernandez",
+            "tipoContrato": true
+        },
+        {
+            "idInstructor": 5,
+            "nombre": "John",
+            "apellido": "Dominguez",
+            "tipoContrato": false
+        },
+        {
+            "idInstructor": 6,
+            "nombre": "Steven",
+            "apellido": "Miller",
+            "tipoContrato": false
+        },
+        {
+            "idInstructor": 7,
+            "nombre": "James",
+            "apellido": "Harris",
+            "tipoContrato": false
+        },
+        {
+            "idInstructor": 8,
+            "nombre": "Andrew",
+            "apellido": "Nguyen",
+            "tipoContrato": true
+        },
+        {
+            "idInstructor": 9,
+            "nombre": "Nancy",
+            "apellido": "Lewis",
+            "tipoContrato": false
+        },
+        {
+            "idInstructor": 10,
+            "nombre": "Thomas",
+            "apellido": "Smith",
+            "tipoContrato": true
+        }
+    ],
+    "fichasHasCompetencias": [
+        {
+            "fk_id_Ficha": 2,
+            "fk_id_Competencia": 2
+        },
+        {
+            "fk_id_Ficha": 6,
+            "fk_id_Competencia": 3
+        },
+        {
+            "fk_id_Ficha": 4,
+            "fk_id_Competencia": 7
+        },
+        {
+            "fk_id_Ficha": 4,
+            "fk_id_Competencia": 6
+        },
+        {
+            "fk_id_Ficha": 6,
+            "fk_id_Competencia": 4
+        },
+        {
+            "fk_id_Ficha": 6,
+            "fk_id_Competencia": 3
+        },
+        {
+            "fk_id_Ficha": 9,
+            "fk_id_Competencia": 9
+        },
+        {
+            "fk_id_Ficha": 7,
+            "fk_id_Competencia": 8
+        },
+        {
+            "fk_id_Ficha": 5,
+            "fk_id_Competencia": 10
+        },
+        {
+            "fk_id_Ficha": 8,
+            "fk_id_Competencia": 5
+        }
+    ],
+    "competenciasHasResultadoDeAprendizaje": [
+        {
+            "fk_id_Competencia": 4,
+            "fk_id_RDA": 10
+        },
+        {
+            "fk_id_Competencia": 2,
+            "fk_id_RDA": 7
+        },
+        {
+            "fk_id_Competencia": 1,
+            "fk_id_RDA": 5
+        },
+        {
+            "fk_id_Competencia": 3,
+            "fk_id_RDA": 3
+        },
+        {
+            "fk_id_Competencia": 7,
+            "fk_id_RDA": 1
+        },
+        {
+            "fk_id_Competencia": 8,
+            "fk_id_RDA": 6
+        },
+        {
+            "fk_id_Competencia": 7,
+            "fk_id_RDA": 3
+        },
+        {
+            "fk_id_Competencia": 10,
+            "fk_id_RDA": 4
+        },
+        {
+            "fk_id_Competencia": 10,
+            "fk_id_RDA": 1
+        },
+        {
+            "fk_id_Competencia": 8,
+            "fk_id_RDA": 7
+        }
+    ],
+    "competenciasHasTematica": [
+        {
+            "fk_id_Competencia": 8,
+            "fk_id_Tematica": 1
+        },
+        {
+            "fk_id_Competencia": 6,
+            "fk_id_Tematica": 9
+        },
+        {
+            "fk_id_Competencia": 9,
+            "fk_id_Tematica": 5
+        },
+        {
+            "fk_id_Competencia": 1,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Competencia": 6,
+            "fk_id_Tematica": 4
+        },
+        {
+            "fk_id_Competencia": 4,
+            "fk_id_Tematica": 8
+        },
+        {
+            "fk_id_Competencia": 5,
+            "fk_id_Tematica": 2
+        },
+        {
+            "fk_id_Competencia": 10,
+            "fk_id_Tematica": 9
+        },
+        {
+            "fk_id_Competencia": 8,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Competencia": 8,
+            "fk_id_Tematica": 4
+        }
+    ],
+    "tematicaHasInstructores": [
+        {
+            "fk_id_Tematica": 6,
+            "fk_id_Intructor": 2
+        },
+        {
+            "fk_id_Tematica": 4,
+            "fk_id_Intructor": 8
+        },
+        {
+            "fk_id_Tematica": 9,
+            "fk_id_Intructor": 3
+        },
+        {
+            "fk_id_Tematica": 8,
+            "fk_id_Intructor": 2
+        },
+        {
+            "fk_id_Tematica": 5,
+            "fk_id_Intructor": 1
+        },
+        {
+            "fk_id_Tematica": 8,
+            "fk_id_Intructor": 3
+        },
+        {
+            "fk_id_Tematica": 7,
+            "fk_id_Intructor": 9
+        },
+        {
+            "fk_id_Tematica": 9,
+            "fk_id_Intructor": 3
+        },
+        {
+            "fk_id_Tematica": 1,
+            "fk_id_Intructor": 2
+        },
+        {
+            "fk_id_Tematica": 2,
+            "fk_id_Intructor": 7
+        }
+    ],
+    "tematicaHasAmbientes": [
+        {
+            "fk_id_Tematica": 6,
+            "fk_id_Ambiente": 9
+        },
+        {
+            "fk_id_Tematica": 3,
+            "fk_id_Ambiente": 9
+        },
+        {
+            "fk_id_Tematica": 1,
+            "fk_id_Ambiente": 6
+        },
+        {
+            "fk_id_Tematica": 3,
+            "fk_id_Ambiente": 3
+        },
+        {
+            "fk_id_Tematica": 5,
+            "fk_id_Ambiente": 3
+        },
+        {
+            "fk_id_Tematica": 2,
+            "fk_id_Ambiente": 4
+        },
+        {
+            "fk_id_Tematica": 8,
+            "fk_id_Ambiente": 1
+        },
+        {
+            "fk_id_Tematica": 10,
+            "fk_id_Ambiente": 9
+        },
+        {
+            "fk_id_Tematica": 8,
+            "fk_id_Ambiente": 1
+        },
+        {
+            "fk_id_Tematica": 2,
+            "fk_id_Ambiente": 2
+        }
+    ],
+    "clasesPorInstructor": [
+        {
+            "fk_id_Instructor": 1,
+            "fk_id_Bloque": 6,
+            "fk_id_Tematica": 4
+        },
+        {
+            "fk_id_Instructor": 1,
+            "fk_id_Bloque": 8,
+            "fk_id_Tematica": 7
+        },
+        {
+            "fk_id_Instructor": 1,
+            "fk_id_Bloque": 8,
+            "fk_id_Tematica": 1
+        },
+        {
+            "fk_id_Instructor": 1,
+            "fk_id_Bloque": 10,
+            "fk_id_Tematica": 4
+        },
+        {
+            "fk_id_Instructor": 1,
+            "fk_id_Bloque": 10,
+            "fk_id_Tematica": 7
+        },
+        {
+            "fk_id_Instructor": 2,
+            "fk_id_Bloque": 1,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Instructor": 2,
+            "fk_id_Bloque": 8,
+            "fk_id_Tematica": 1
+        },
+        {
+            "fk_id_Instructor": 2,
+            "fk_id_Bloque": 10,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Instructor": 2,
+            "fk_id_Bloque": 5,
+            "fk_id_Tematica": 4
+        },
+        {
+            "fk_id_Instructor": 2,
+            "fk_id_Bloque": 8,
+            "fk_id_Tematica": 1
+        },
+        {
+            "fk_id_Instructor": 3,
+            "fk_id_Bloque": 10,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Instructor": 3,
+            "fk_id_Bloque": 3,
+            "fk_id_Tematica": 2
+        },
+        {
+            "fk_id_Instructor": 3,
+            "fk_id_Bloque": 2,
+            "fk_id_Tematica": 10
+        },
+        {
+            "fk_id_Instructor": 3,
+            "fk_id_Bloque": 10,
+            "fk_id_Tematica": 4
+        },
+        {
+            "fk_id_Instructor": 3,
+            "fk_id_Bloque": 7,
+            "fk_id_Tematica": 9
+        },
+        {
+            "fk_id_Instructor": 4,
+            "fk_id_Bloque": 9,
+            "fk_id_Tematica": 7
+        },
+        {
+            "fk_id_Instructor": 4,
+            "fk_id_Bloque": 3,
+            "fk_id_Tematica": 7
+        },
+        {
+            "fk_id_Instructor": 4,
+            "fk_id_Bloque": 3,
+            "fk_id_Tematica": 5
+        },
+        {
+            "fk_id_Instructor": 4,
+            "fk_id_Bloque": 8,
+            "fk_id_Tematica": 9
+        },
+        {
+            "fk_id_Instructor": 4,
+            "fk_id_Bloque": 7,
+            "fk_id_Tematica": 8
+        },
+        {
+            "fk_id_Instructor": 5,
+            "fk_id_Bloque": 7,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Instructor": 5,
+            "fk_id_Bloque": 5,
+            "fk_id_Tematica": 2
+        },
+        {
+            "fk_id_Instructor": 5,
+            "fk_id_Bloque": 9,
+            "fk_id_Tematica": 7
+        },
+        {
+            "fk_id_Instructor": 5,
+            "fk_id_Bloque": 2,
+            "fk_id_Tematica": 7
+        },
+        {
+            "fk_id_Instructor": 5,
+            "fk_id_Bloque": 10,
+            "fk_id_Tematica": 6
+        },
+        {
+            "fk_id_Instructor": 6,
+            "fk_id_Bloque": 8,
+            "fk_id_Tematica": 2
+        },
+        {
+            "fk_id_Instructor": 6,
+            "fk_id_Bloque": 5,
+            "fk_id_Tematica": 1
+        },
+        {
+            "fk_id_Instructor": 6,
+            "fk_id_Bloque": 6,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Instructor": 6,
+            "fk_id_Bloque": 2,
+            "fk_id_Tematica": 4
+        },
+        {
+            "fk_id_Instructor": 6,
+            "fk_id_Bloque": 10,
+            "fk_id_Tematica": 5
+        },
+        {
+            "fk_id_Instructor": 7,
+            "fk_id_Bloque": 5,
+            "fk_id_Tematica": 9
+        },
+        {
+            "fk_id_Instructor": 7,
+            "fk_id_Bloque": 3,
+            "fk_id_Tematica": 4
+        },
+        {
+            "fk_id_Instructor": 7,
+            "fk_id_Bloque": 5,
+            "fk_id_Tematica": 8
+        },
+        {
+            "fk_id_Instructor": 7,
+            "fk_id_Bloque": 6,
+            "fk_id_Tematica": 9
+        },
+        {
+            "fk_id_Instructor": 7,
+            "fk_id_Bloque": 7,
+            "fk_id_Tematica": 1
+        },
+        {
+            "fk_id_Instructor": 8,
+            "fk_id_Bloque": 1,
+            "fk_id_Tematica": 4
+        },
+        {
+            "fk_id_Instructor": 8,
+            "fk_id_Bloque": 6,
+            "fk_id_Tematica": 2
+        },
+        {
+            "fk_id_Instructor": 8,
+            "fk_id_Bloque": 5,
+            "fk_id_Tematica": 1
+        },
+        {
+            "fk_id_Instructor": 8,
+            "fk_id_Bloque": 3,
+            "fk_id_Tematica": 1
+        },
+        {
+            "fk_id_Instructor": 8,
+            "fk_id_Bloque": 6,
+            "fk_id_Tematica": 7
+        },
+        {
+            "fk_id_Instructor": 9,
+            "fk_id_Bloque": 9,
+            "fk_id_Tematica": 5
+        },
+        {
+            "fk_id_Instructor": 9,
+            "fk_id_Bloque": 2,
+            "fk_id_Tematica": 7
+        },
+        {
+            "fk_id_Instructor": 9,
+            "fk_id_Bloque": 5,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Instructor": 9,
+            "fk_id_Bloque": 2,
+            "fk_id_Tematica": 1
+        },
+        {
+            "fk_id_Instructor": 9,
+            "fk_id_Bloque": 4,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Instructor": 10,
+            "fk_id_Bloque": 6,
+            "fk_id_Tematica": 3
+        },
+        {
+            "fk_id_Instructor": 10,
+            "fk_id_Bloque": 4,
+            "fk_id_Tematica": 9
+        },
+        {
+            "fk_id_Instructor": 10,
+            "fk_id_Bloque": 3,
+            "fk_id_Tematica": 8
+        },
+        {
+            "fk_id_Instructor": 10,
+            "fk_id_Bloque": 5,
+            "fk_id_Tematica": 8
+        },
+        {
+            "fk_id_Instructor": 10,
+            "fk_id_Bloque": 10,
+            "fk_id_Tematica": 2
+        }
+    ]
+}
