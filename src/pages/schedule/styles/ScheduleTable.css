@@ -1,0 +1,62 @@
+:root{
+    --colorInstructor: rgba(203,119,102, .37);
+    --colorTematica: rgba(0,50,77, .6);
+    --colorAmbiente: rgba(57,169,0, .60);
+}
+
+/* Bloque */
+.instructor, .ambiente,.ficha, .tematica{
+    width: 11.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instructor, .ambiente,.ficha{
+    
+    height: 3vh;
+}
+.instructor{
+    background-color: var(--colorInstructor); 
+}
+.ambiente{
+    background-color: var(--colorAmbiente);
+}
+.ficha{
+    background-color: var(--colorBlanco);
+}
+.tematica{
+    background-color: var(--colorTematica);
+    height: 4.5vh;
+}
+
+.schedule-container{
+    margin-top: 4vh;
+    width: 68vw;
+    text-align: center;
+    border-left: 1px solid var(--colorNegro);
+    border-right: 1px solid var(--colorNegro);
+
+    overflow-y: hidden;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 100%;
+}
+  
+.horaHorario{
+    display: block;
+    width: 11.3vw;
+    text-align: center;
+}
+
+thead{
+    height: 5vh;
+    border: 1px solid var(--colorNegro);
+}
+td, th{
+    border: 1px solid var(--colorNegro);
+    padding: 0;
+    border-collapse: collapse;
+}

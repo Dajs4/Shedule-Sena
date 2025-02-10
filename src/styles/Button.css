@@ -1,0 +1,20 @@
+.boton, .botonGrande{
+    background-color: var(--colorSecundario);
+    color: var(--colorBlanco);
+    font-weight: 700;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border: none;
+    height: 4vh;
+
+    cursor: pointer;
+}
+.boton{
+    width: 45%;
+}
+.botonGrande{
+    width: 100%;
+}
